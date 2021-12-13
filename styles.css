@@ -1,0 +1,25 @@
+    /* Place your CSS styles in this file */
+
+    h1 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: "Helvetica";
+        font-weight: bold;
+    }
+
+     p {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: "Helvetica";
+        font-weight:   bold;
+        letter-spacing: 1px;
+    }
+    
+    .AboutLol{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: "Helvetica";
+        font-weight: bold;
+        line-height: 4;    
+    }
+   

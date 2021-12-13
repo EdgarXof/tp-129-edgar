@@ -1,10 +1,73 @@
-<!DOCTYPE html>
-<html>
-<title>HTML Tutorial</title>
-<body>
+<!doctype html>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Main Page</title>
+
+    <!-- Load external CSS styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            background-color: rgb(45, 46, 46);
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: "Helvetica";
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #ffbc05;
+        }
+    </style>
+
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">Roles</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+
+    <h1>My Mains in Lol</h1>
+    <p>Welcome to My Mains in League of Legend, <br>
+        this website is build to show you what character I play on the game
+        league of
+        legends.
+    </p>
+
+    <h2 class="AboutLol">About League of Legends</h1>
+
+
+        <!-- Load external JavaScript -->
+        <script src="scripts.js"></script>
 
 </body>
+
 </html>
