@@ -11,50 +11,24 @@
     <!-- Load external CSS styles -->
     <link rel="stylesheet" href="styles.css">
 
-    <style>
-        body {
-            background-color: rgb(0, 0, 0);
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: rgb(0, 0, 0);
-            transition: top 0.3s;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-family: "Helvetica";
-        }
-
-        li a:hover:not(.active) {
-            background-color: #111;
-        }
-
-        .active {
-            background-color: #ffbc05;
-        }
-    </style>
+    
 
 </head>
 
 <body>
     <ul>
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#news">Roles</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="subnav">
+              <button class="subnavbtn">Rôle <i class="navbardown"></i></button>
+              <div class="subnav-content">
+                <a href="Role/Top.html">Top</a>
+                <a href="Role/Jungle.html">Jungle</a>
+                <a href="Role/Midlane.html">Midlane</a>
+                <a href="Role/Adc.html">Adc</a>
+                <a href="Role/Support.html">Support</a>
+              </div>
+            </div> 
     </ul>
     <div class="header">
         <h1>My Mains in Lol</h1>
@@ -66,9 +40,20 @@
 
     
 
-    <h2 class="AboutLol">About League of Legends</h1>
-
-
+    <h2 class="AboutLolH2">About League of Legends</h1>
+<p class="AboutLolP">League of Legends is a game where you have to play with strangers to win.<br>
+    To win the rule is to destroy the "monument" of the enemey team.<br>
+    League of legends is a moba and mostly players versus players.<br>    
+    They are different role in lol:<br>
+    The<a href="Role/Top.html"> Toplane</a>,<br>
+    The<a href="Role/Jungle.html"> Jungle</a>,<br>
+    The<a href="Role/Midlane.html"> Midlane</a>,<br>
+    The<a href="Role/Adc.html"> Adc</a>,<br>    
+    and the<a href="Role/Support.html"> Support</a>,
+</p>
+<form action="https://www.leagueoflegends.com" method="get" target="_blank">
+    <button class="AboutLolButton" type="submit">More About Lol</button>
+ </form>
         <!-- Load external JavaScript -->
         <script src="scripts.js"></script>
 
