@@ -1,4 +1,140 @@
     /* Place your CSS styles in this file */
+    :root{
+      --color-1: #673ab7;
+    }
+    
+    }
+    *{
+      box-sizing: border-box;
+      margin:0;
+      padding:0;
+    }
+    a{
+      text-decoration: none;
+    }
+    ul{
+      list-style: none;
+    }
+    .container{
+      max-width: 1170px;
+      margin: auto;
+    }
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .align-items-center{
+      align-items: center;
+    }
+    .justify-content-between{
+      justify-content: space-between;
+    }
+    /*header*/
+    .header{
+      background-color: var(--color-1);
+      padding:12px 0;
+      position: relative;
+    }
+    .header .logo,
+    .header .nav{
+      padding:0 15px;
+    }
+    .header .logo a{
+      font-size: 30px;
+      color: #ffffff;
+      text-transform: capitalize;
+    }
+    .header .nav ul li{
+      display: inline-block;
+      margin-left: 40px;
+    }
+    .header .nav ul li a{
+      display: block;
+      font-size: 20px;
+      padding:10px 0;
+      color: rgba(255,255,255,0.7);
+      text-transform: capitalize;
+      transition: all 0.5s ease;
+    }
+    .header .nav ul li a:hover,
+    .header .nav ul li a.active{
+      color: #ffffff;
+    }
+    .header #nav-check{
+      position: absolute;
+      opacity:0;
+      pointer-events: none;
+    }
+    .nav-toggler{
+      height: 34px;
+      width: 44px;
+      background-color: #ffffff;
+      border-radius: 4px;
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+    }
+    .nav-toggler span{
+      display: block;
+      height: 2px;
+      width: 20px;
+      background-color: var(--color-1);
+      position: relative;
+    }
+    .nav-toggler span::before,
+    .nav-toggler span::after{
+       content: '';
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       background-color: var(--color-1);
+       left:0;
+    }
+    .nav-toggler span::before{
+      top: -6px;
+    }
+    .nav-toggler span::after{
+      top: 6px;
+    }
+    @media(max-width: 991px){
+        .nav-toggler{
+          display: flex;
+        }
+        .header .nav{
+          position: absolute;
+          left:0;
+          top:100%;
+          width: 100%;
+          background-color: var(--color-1);
+          border-top: 1px solid rgba(255,255,255,0.2);
+          opacity:0;
+          visibility: hidden;
+        }
+        .header .nav ul li{
+          display: block;
+          margin:0;
+        }
+        .header #nav-check:checked ~ .nav{
+           opacity: 1;
+           visibility: visible;
+        }
+        .header #nav-check:focus ~ .nav-toggler{
+          box-shadow: 0 0 15px #000000;
+        }
+        .header #nav-check:checked ~ .nav-toggler span{
+          background-color: transparent;
+        }
+        .header #nav-check:checked ~ .nav-toggler span::before{
+          top:0;
+          transform: rotate(45deg);
+        }
+        .header #nav-check:checked ~ .nav-toggler span::after{
+          top:0;
+          transform: rotate(-45deg);
+        }
+    }
 
     h1 {
         color: rgb(255, 255, 255);
@@ -14,7 +150,42 @@
         font-weight:   bold;
         letter-spacing: 1px;
     }
+    .Jayce{
+      color: rgb(185, 28, 28);
+      text-align: center;
+      font-family: "Helvetica";
+      font-weight: bold;
+      line-height: 2;
+      font-size: 50px;     
+  }
+
+  .Aatroxp{
+    text-align: center;
+    font-family: "Helvetica";
+    font-weight: bold;
     
+    font-size: 20px;
+    
+
+  }
+    .Aatrox{
+      color: rgb(185, 28, 28);
+      text-align: center;
+      font-family: "Helvetica";
+      font-weight: bold;
+      
+      font-size: 70px;
+      letter-spacing: 20px; 
+           
+  }
+  .aatroximg{
+    display: block;
+    height: auto;
+    width: auto;
+    margin:auto;
+    border: 3px solid red;
+  }
+  
     .AboutLolH2{
         color: rgb(255, 255, 255);
         text-align: center;
@@ -23,97 +194,27 @@
         line-height: 2;
         font-size: 30px;     
     }
+    .AboutLolH21{
+      color: rgb(255, 255, 255);
+      text-align: center;
+      font-family: "Helvetica";
+      font-weight: bold;
+      line-height: 1;
+      font-size: 30px;     
+  }
+s
     .AboutLolP{
         text-align: center;
         font-family: "Helvetica";
         font-weight: bold;
-        line-height: 2;
+        
         font-size: 20px; 
     }
-    .header {
-        padding: 40px;
-        text-align: center;
-        background: #ffbc05;
-        color: white;
-        font-size: 30px;
-        
-      }
-   
       body {
-        background-color: rgb(0, 0, 0);
-    }
-
-    /* The navigation menu */
-.navbar {
-    overflow: hidden;
-    background-color: rgb(0, 0, 0);
-        color: white;
-
-  }
-  
-  /* Navigation links */
-  .navbar a {
-    float: left;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: "Helvetica"
-  }
-  
-  /* The subnavigation menu */
-  .subnav {
-    float: left;
-    overflow: hidden;
-  }
-  
-  /* Subnav button */
-  .subnav .subnavbtn {
-    font-size: 25px; 
-    border: none;
-    outline: none;
-    color: #ffbc05;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: "Helvetica";
-    margin: 0;
-  }
-  
-  /* Add a red background color to navigation links on hover */
-  .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: #222222;
-  }
-  
-  /* Style the subnav content - positioned absolute */
-  .subnav-content {
-    display: none;
-    position: absolute;
-    left: 0;
-    color: #ffbc05;     
-    background-color: #000000;
-    width: 100%;
-    z-index: 1;
-  }
-  
-  /* Style the subnav links */
-  .subnav-content a {
-    float: left;
-    color: #ffbc05;
-    text-decoration: none;
-  }
-  
-  /* Add a grey background color on hover */
-  .subnav-content a:hover {
-    background-color: #ffbc05;
-    color: black;
-  }
-  
-  /* When you move the mouse over the subnav container, open the subnav content */
-  .subnav:hover .subnav-content {
-    display: block;
-  }
-
+          line-height: 1.5;
+font-family: sans-serif;
+background-color: #000000;
+}
     /*HyperLink*/
     a:link {
         color: #ffbc05; 
