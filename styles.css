@@ -208,7 +208,50 @@
     margin:auto;
     border: 3px solid rgb(0, 119, 255);
   }
+  .Nidalee{
+    color: white;
+    text-align: center;
+    font-family: "Helvetica";
+    font-weight: bold;
+    background-color: rgb(10, 97, 7);
+    font-size: 70px;
+    letter-spacing: 20px;
+
+         
+}
+  .nidaleeimg{
+    display: block;
+    height: auto;
+    width: auto;
+    margin:auto;
+    border: 3px solid rgb(10, 97, 7);
+  }
   
+  .Leesin{
+    color: white;
+    text-align: center;
+    font-family: "Helvetica";
+    font-weight: bold;
+    background-color: rgb(51, 207, 255);
+    font-size: 70px;
+    letter-spacing: 20px;
+
+         
+}
+  .leesinimg{
+    display: block;
+    height: auto;
+    width: auto;
+    margin:auto;
+    border: 3px solid rgb(51, 207, 255);
+  }
+  .Video{
+    display: block;
+    height: auto;
+    width: auto;
+    margin:auto;
+    text-align: center;
+  }
     .AboutLolH2{
         color: rgb(255, 255, 255);
         text-align: center;
