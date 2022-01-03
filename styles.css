@@ -163,6 +163,154 @@
      
   }
 
+  .Ryze{
+    color: white;
+    text-align: center;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 70px;
+    background-color:rgb(111, 0, 255);
+    letter-spacing: 20px;
+    
+   
+}
+
+.Ryzep{
+  text-align: center;
+  font-family: "Helvetica";
+  font-weight: bold;
+  
+  font-size: 20px;
+  
+
+}
+
+.ryzeimg{
+  display: block;
+  height: auto;
+  width: auto;
+  margin:auto;
+  border: 3px solid rgb(111, 0, 255);
+}
+
+.Anivia{
+  color: white;
+  text-align: center;
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-size: 70px;
+  background-color:rgb(0, 255, 255);
+  letter-spacing: 20px;
+  
+ 
+}
+
+.Aniviap{
+text-align: center;
+font-family: "Helvetica";
+font-weight: bold;
+
+font-size: 20px;
+
+
+}
+
+.aniviaimg{
+display: block;
+height: auto;
+width: auto;
+margin:auto;
+border: 3px solid rgb(0, 255, 255);
+}
+
+.Senna{
+  color: white;
+  text-align: center;
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-size: 70px;
+  background-color:rgb(59, 197, 197);
+  letter-spacing: 20px;
+  
+ 
+}
+
+.Sennap{
+text-align: center;
+font-family: "Helvetica";
+font-weight: bold;
+
+font-size: 20px;
+
+
+}
+
+.sennaimg{
+display: block;
+height: auto;
+width: auto;
+margin:auto;
+border: 3px solid rgb(59, 197, 197);
+}
+
+.Lux{
+  color: white;
+  text-align: center;
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-size: 70px;
+  background-color:rgb(255, 238, 143);
+  letter-spacing: 20px;
+  
+ 
+}
+
+.Luxp{
+text-align: center;
+font-family: "Helvetica";
+font-weight: bold;
+
+font-size: 20px;
+
+
+}
+
+.luximg{
+display: block;
+height: auto;
+width: auto;
+margin:auto;
+border: 3px solid rgb(255, 238, 143);
+}
+
+.Kogmaw{
+  color: white;
+  text-align: center;
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-size: 70px;
+  background-color:rgb(255, 51, 0);
+  letter-spacing: 20px;
+}
+
+.Kogmawp{
+text-align: center;
+font-family: "Helvetica";
+font-weight: bold;
+
+font-size: 20px;
+
+
+}
+
+.kogmawimg{
+display: block;
+height: auto;
+width: auto;
+margin:auto;
+border: 3px solid rgb(255, 51, 0);
+}
+
   .Aatroxp{
     text-align: center;
     font-family: "Helvetica";
