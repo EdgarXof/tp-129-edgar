@@ -2,14 +2,15 @@
     :root{
       --color-1: #673ab7;
     }
-    
-    
+    img {
+      height: auto;
+      max-width: 100%;
+    }
     *{
       box-sizing: border-box;
       margin:0;
       padding:0;
-      cursor: url("../ressources/cursors/normal.cur"),default;
-      
+      cursor: url("../ressources/cursors/normal.cur"),default; 
     }
     a{
       text-decoration: none;
@@ -31,8 +32,6 @@
     .justify-content-between{
       justify-content: space-between;
     }
-    
-    
     .header{
       background-color: var(--color-1);
       padding:12px 0;
@@ -88,12 +87,12 @@
     }
     .nav-toggler span::before,
     .nav-toggler span::after{
-       content: '';
-       position: absolute;
-       width: 100%;
-       height: 100%;
-       background-color: var(--color-1);
-       left:0;
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: var(--color-1);
+      left:0;
     }
     .nav-toggler span::before{
       top: -6px;
@@ -120,8 +119,8 @@
           margin:0;
         }
         .header #nav-check:checked ~ .nav{
-           opacity: 1;
-           visibility: visible;
+          opacity: 1;
+          visibility: visible;
         }
         .header #nav-check:focus ~ .nav-toggler{
           box-shadow: 0 0 15px #000000;
@@ -138,270 +137,283 @@
           transform: rotate(-45deg);
         }
     }
-
     h1 {
+        font-size:8vw;
         color: rgb(255, 255, 255);
         text-align: center;
         font-family: "Helvetica";
         font-weight: bold;
     }
-
-     p {
-        color: rgb(255, 255, 255);
-        text-align: center;
-        font-family: "Helvetica";
-        font-weight:   bold;
-        letter-spacing: 1px;
-        
-    }
+    /*title*/
     .Jayce{
+      font-size:6vw;
       color: white;
       text-align: center;
       font-family: "Helvetica";
       font-weight: bold;
-      font-size: 70px;
       background-color:rgb(0, 119, 255);
-      letter-spacing: 20px;
-      
-     
   }
-
+/*title*/
   .Ryze{
+    font-size:6vw;
     color: white;
     text-align: center;
     font-family: "Helvetica";
     font-weight: bold;
-    font-size: 70px;
     background-color:rgb(111, 0, 255);
-    letter-spacing: 20px;
-    
-   
 }
-
 .Ryzep{
   text-align: center;
   font-family: "Helvetica";
   font-weight: bold;
-  
-  font-size: 20px;
-  
-
+  font-size: 2vw;
 }
-
 .ryzeimg{
+  max-width:100%;
   display: block;
   height: auto;
   width: auto;
   margin:auto;
   border: 3px solid rgb(111, 0, 255);
 }
-
+.ryzebox{
+  background-color: rgb(111, 0, 255);
+  margin: 150px auto;
+  width: 100%;
+  padding: 8px; 
+}
+/*title*/
 .Anivia{
+  font-size: 6vw;
   color: white;
   text-align: center;
   font-family: "Helvetica";
   font-weight: bold;
-  font-size: 70px;
   background-color:rgb(0, 255, 255);
-  letter-spacing: 20px;
-  
- 
 }
-
 .Aniviap{
 text-align: center;
 font-family: "Helvetica";
 font-weight: bold;
-
-font-size: 20px;
-
-
+font-size: 2vw;
 }
-
 .aniviaimg{
+max-width:100%;
 display: block;
 height: auto;
 width: auto;
 margin:auto;
 border: 3px solid rgb(0, 255, 255);
 }
-
+.aniviabox{
+  background-color: rgb(0, 255, 255);
+  margin: 150px auto;
+  width: 100%;
+  padding: 8px; 
+}
+/*title*/
 .Senna{
+  font-size: 6vw;
   color: white;
   text-align: center;
   font-family: "Helvetica";
   font-weight: bold;
-  font-size: 70px;
   background-color:rgb(59, 197, 197);
-  letter-spacing: 20px;
-  
- 
 }
-
 .Sennap{
 text-align: center;
 font-family: "Helvetica";
 font-weight: bold;
-
-font-size: 20px;
-
-
+font-size: 2vw;
 }
-
 .sennaimg{
+max-width:100%;
 display: block;
 height: auto;
 width: auto;
 margin:auto;
 border: 3px solid rgb(59, 197, 197);
 }
-
+.sennabox{
+  background-color: rgb(59, 197, 197);
+        margin: 150px auto;
+        width: 100%;
+        padding: 8px; 
+}
+/*title*/
 .Lux{
+  font-size: 6vw;
   color: white;
   text-align: center;
   font-family: "Helvetica";
   font-weight: bold;
-  font-size: 70px;
   background-color:rgb(255, 238, 143);
-  letter-spacing: 20px;
-  
- 
 }
-
 .Luxp{
 text-align: center;
 font-family: "Helvetica";
 font-weight: bold;
-
-font-size: 20px;
-
-
+font-size: 2vw;
 }
-
 .luximg{
+  max-width:100%;
 display: block;
 height: auto;
 width: auto;
 margin:auto;
-border: 3px solid rgb(255, 238, 143);
+border: 3px solid rgb(230, 198, 16);
 }
-
+.luxbox{
+  background-color: rgb(230, 198, 16);
+        margin: 150px auto;
+        width: 100%;
+        padding: 8px; 
+}
+/*title*/
 .Kogmaw{
+  font-size: 6vw;
   color: white;
   text-align: center;
   font-family: "Helvetica";
   font-weight: bold;
-  font-size: 70px;
   background-color:rgb(255, 51, 0);
-  letter-spacing: 20px;
 }
-
 .Kogmawp{
 text-align: center;
 font-family: "Helvetica";
 font-weight: bold;
-
-font-size: 20px;
-
-
+font-size: 2vw;
 }
-
+.map{
+    max-width:100%;
+    display: block;
+    height: auto;
+    width: auto;
+    margin:auto;
+}
 .kogmawimg{
+  max-width:100%;
 display: block;
 height: auto;
 width: auto;
 margin:auto;
 border: 3px solid rgb(255, 51, 0);
 }
-
-  .Aatroxp{
-    text-align: center;
-    font-family: "Helvetica";
-    font-weight: bold;
-    
-    font-size: 20px;
-    
-
-  }
-
-  .JayceP{
-    text-align: center;
-    font-family: "Helvetica";
-    font-weight: bold;
-    
-    font-size: 20px;
-    
-
-  }
+.kogmawbox{
+  background-color: rgb(255, 51, 0);
+        margin: 150px auto;
+        width: 100%;
+        padding: 8px; 
+}
+  /*title*/
     .Aatrox{
+      font-size: 6vw;
       color: white;
       text-align: center;
       font-family: "Helvetica";
       font-weight: bold;
       background-color: rgb(139, 8, 8);
-      font-size: 70px;
-      letter-spacing: 20px;
-
-           
-  }
+  } 
   .aatroximg{
+    max-width:100%;
     display: block;
     height: auto;
     width: auto;
     margin:auto;
     border: 3px solid rgb(139, 8, 8);
   }
-
+  .aatroxbox{
+    background-color: rgb(139, 8, 8);
+          margin: 150px auto;
+          width: 100%;
+          padding: 8px;
+  }
+  .Aatroxp{
+    text-align: center;
+    font-family: "Helvetica";
+    font-weight: bold;    
+    font-size: 2vw;
+    color:white;
+  }
   .jayceimg{
+    max-width:100%;
     display: block;
     height: auto;
     width: auto;
     margin:auto;
     border: 3px solid rgb(0, 119, 255);
   }
+  .JayceP{
+    text-align: center;
+    font-family: "Helvetica";
+    font-weight: bold;
+    color:white;
+    font-size: 2vw;
+  }
+  .jaycebox{
+    background-color: rgb(0, 119, 255);
+          margin: 150px auto;
+          width: 100%;
+          padding: 8px;
+  }
+  /*title*/
   .Nidalee{
+    font-size: 6vw;
     color: white;
     text-align: center;
     font-family: "Helvetica";
     font-weight: bold;
     background-color: rgb(10, 97, 7);
-    font-size: 70px;
-    letter-spacing: 20px;
-
-         
 }
   .nidaleeimg{
+    max-width:100%;
     display: block;
     height: auto;
     width: auto;
     margin:auto;
     border: 3px solid rgb(10, 97, 7);
   }
-  
+  .nidaleebox{
+    background-color: rgb(10, 97, 7);
+          margin: 150px auto;
+          width: 100%;
+          padding: 8px;
+  }
+  .Nidaleep{
+    text-align: center;
+    font-family: "Helvetica";
+    font-weight: bold;
+    color:white;
+    font-size: 2vw;
+  }
+  /*title*/
   .Leesin{
+    font-size: 6vw;
     color: white;
     text-align: center;
     font-family: "Helvetica";
     font-weight: bold;
     background-color: rgb(51, 207, 255);
-    font-size: 70px;
-    letter-spacing: 20px;
-
-         
 }
+.Leesinp{
+  text-align: center;
+  font-family: "Helvetica";
+  font-weight: bold;
+  color:white;
+  font-size: 2vw;}
   .leesinimg{
+    max-width:100%;
     display: block;
     height: auto;
     width: auto;
     margin:auto;
     border: 3px solid rgb(51, 207, 255);
   }
-  .Video{
-    display: block;
-    height: auto;
-    width: auto;
-    margin:auto;
-    text-align: center;
+  .leesinbox{
+    background-color: rgb(51, 207, 255);
+          margin: 150px auto;
+          width: 100%;
+          padding: 8px;
   }
     .AboutLolH2{
         color: rgb(255, 255, 255);
@@ -409,7 +421,11 @@ border: 3px solid rgb(255, 51, 0);
         font-family: "Helvetica";
         font-weight: bold;
         
-        font-size: 50px;     
+        font-size: 6vw;     
+    }
+    .DocText{
+      text-align: center;
+      color: rgb(255, 255, 255);
     }
     .AboutLolH21{
       color: rgb(255, 255, 255);
@@ -419,19 +435,18 @@ border: 3px solid rgb(255, 51, 0);
       line-height: 2;
       font-size: 30px;     
   }
-
     .AboutLolP{
         text-align: center;
         font-family: "Helvetica";
         font-weight: bold;
-        
-        font-size: 20px; 
+        font-size: 2vw; 
+        color: white;
     }
       body {
           line-height: 1.5;
           font-family: sans-serif;
-            background-color: #000000;
-}
+          background: radial-gradient(#673ab7, #452c70);
+      }
     /*HyperLink*/
     a:link {
         color: #673ab7; 
@@ -439,49 +454,37 @@ border: 3px solid rgb(255, 51, 0);
         text-decoration: none;
         cursor: url("../ressources/cursors/link.cur"),pointer;
       }
-      
       a:visited {
         color: #804bdb;
         background-color: transparent;
         text-decoration: none;
       }
-      
       a:hover {
         color: #ffffff;
         background-color: transparent;
         text-decoration: underline;
       }
-      
       a:active {
         color: rgb(46, 46, 46);
         background-color: transparent;
         text-decoration: underline;
       }
-      /*Button about lol*/
-      .AboutLolButton {
-        background-color: #673ab7; /* Green */
-        color: white;
-        padding: 10px 20px;
+      .roles{
+        border-collapse: separate;
+        border-spacing: 6px;
+        table-layout: fixed;
         text-align: center;
-        display: inline-block;
-        font-size: 16px;
-        margin: auto;
-        display: flex; /* or display:grid */
-        justify-content: center;
-        
+        width: 100%;
       }
       #roles img {
         transition: all 0.2s ease-in-out;
-
       }
-      
       #roles img:hover {
         transform: scale(1.1);
         cursor: url("../ressources/cursors/link.cur"),pointer;
         background-color: #673ab7;
         
       }
-      
       #roles td span {
         display: block;
         text-align: center;
@@ -489,23 +492,110 @@ border: 3px solid rgb(255, 51, 0);
         background-color: #673ab7;
         
       }
-
       .content {
         width: 600px;
         margin: 0 auto;
         color: white;
       }
-
       .AboutLol{
+        font-size: 10vw;
           background-color: #673ab7;
           margin: 150px auto;
           width: 100%;
           padding: 8px;
         }
-
-     
       .AboutLol p {
         text-align: center;
       }
+      /*Tableau*/
+      .content-table {
+          width: 100%;
+          padding: 8px;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        color: white;
+        background-color: #673ab7;
+      }
+      .content-table thead tr {
+        background-color: #59339b;
+        color: #ffffff;
+        text-align: center;
+        font-weight: bold;
+      }
+      .content-table th,
+      .content-table td {
+        padding: 12px 15px;
+      } 
+      tr:nth-child(even) {
+        background-color: #7844d1;
+      }
+      .content-table tbody tr:hover{
+        background-color: #f3f3f3;
+        color: #673ab7;
+        font-weight: bold;
+      }
+    @media screen and (max-width: 500px) {
+      .content-table thead{
+        display: none;
+      }
+      .content-table td{
+        display: block;
+      }
+      .content-table td:first-child{
+        background-color: #59339b;
+        text-align: center;
+      }
 
-      
+      .content-table td:nth-child(2)::before{
+        content: "Role";
+      }
+      .content-table td:nth-child(3)::before{
+        content: "Champion";
+      }
+      .content-table td:nth-child(4)::before{
+        content: "Winrate";
+      }
+      .content-table  td{
+        text-align: right;
+      }
+      .content-table td::before{
+        float: left;
+        margin-right: 3rem;
+        font-weight: bold;
+      } 
+    }
+    @media screen and (max-width: 500px) {
+      thead {
+        display:none;
+      }
+      .roles img{
+        max-width:100%;
+        display: block;
+        height: auto;
+        width: auto;
+        margin:auto;
+      }
+      td{
+        display: block;
+      }
+      td{
+        text-align: right;
+      }
+      td:first-child{
+        text-align: center;
+      }
+      td::before{
+        float: left;
+        margin-right: 3rem;
+        font-weight: bold;
+      }
+    }
+    h3{
+      font-size: 3vw;
+    }
+    
