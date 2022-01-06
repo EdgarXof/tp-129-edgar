@@ -6,6 +6,9 @@
       height: auto;
       max-width: 100%;
     }
+    p{
+      color:white;
+    }
     *{
       box-sizing: border-box;
       margin:0;
@@ -151,7 +154,6 @@
       text-align: center;
       font-family: "Helvetica";
       font-weight: bold;
-      background-color:rgb(0, 119, 255);
   }
 /*title*/
   .Ryze{
@@ -160,7 +162,6 @@
     text-align: center;
     font-family: "Helvetica";
     font-weight: bold;
-    background-color:rgb(111, 0, 255);
 }
 .Ryzep{
   text-align: center;
@@ -174,11 +175,10 @@
   height: auto;
   width: auto;
   margin:auto;
-  border: 3px solid rgb(111, 0, 255);
 }
 .ryzebox{
   background-color: rgb(111, 0, 255);
-  margin: 150px auto;
+  margin: 30px auto;
   width: 100%;
   padding: 8px; 
 }
@@ -189,9 +189,8 @@
   text-align: center;
   font-family: "Helvetica";
   font-weight: bold;
-  background-color:rgb(0, 255, 255);
 }
-.Aniviap{
+.aniviap{
 text-align: center;
 font-family: "Helvetica";
 font-weight: bold;
@@ -203,11 +202,10 @@ display: block;
 height: auto;
 width: auto;
 margin:auto;
-border: 3px solid rgb(0, 255, 255);
 }
 .aniviabox{
   background-color: rgb(0, 255, 255);
-  margin: 150px auto;
+  margin: 30px auto;
   width: 100%;
   padding: 8px; 
 }
@@ -218,7 +216,6 @@ border: 3px solid rgb(0, 255, 255);
   text-align: center;
   font-family: "Helvetica";
   font-weight: bold;
-  background-color:rgb(59, 197, 197);
 }
 .Sennap{
 text-align: center;
@@ -232,13 +229,13 @@ display: block;
 height: auto;
 width: auto;
 margin:auto;
-border: 3px solid rgb(59, 197, 197);
+
 }
 .sennabox{
   background-color: rgb(59, 197, 197);
-        margin: 150px auto;
-        width: 100%;
-        padding: 8px; 
+  margin: 30px auto;
+  width: 100%;
+  padding: 8px; 
 }
 /*title*/
 .Lux{
@@ -247,7 +244,7 @@ border: 3px solid rgb(59, 197, 197);
   text-align: center;
   font-family: "Helvetica";
   font-weight: bold;
-  background-color:rgb(255, 238, 143);
+  
 }
 .Luxp{
 text-align: center;
@@ -261,13 +258,13 @@ display: block;
 height: auto;
 width: auto;
 margin:auto;
-border: 3px solid rgb(230, 198, 16);
+
 }
 .luxbox{
   background-color: rgb(230, 198, 16);
-        margin: 150px auto;
-        width: 100%;
-        padding: 8px; 
+  margin: 30px auto;
+  width: 100%;
+  padding: 8px; 
 }
 /*title*/
 .Kogmaw{
@@ -276,7 +273,6 @@ border: 3px solid rgb(230, 198, 16);
   text-align: center;
   font-family: "Helvetica";
   font-weight: bold;
-  background-color:rgb(255, 51, 0);
 }
 .Kogmawp{
 text-align: center;
@@ -297,13 +293,12 @@ display: block;
 height: auto;
 width: auto;
 margin:auto;
-border: 3px solid rgb(255, 51, 0);
 }
 .kogmawbox{
   background-color: rgb(255, 51, 0);
-        margin: 150px auto;
-        width: 100%;
-        padding: 8px; 
+  margin: 30px auto;
+  width: 100%;
+  padding: 8px; 
 }
   /*title*/
     .Aatrox{
@@ -312,7 +307,6 @@ border: 3px solid rgb(255, 51, 0);
       text-align: center;
       font-family: "Helvetica";
       font-weight: bold;
-      background-color: rgb(139, 8, 8);
   } 
   .aatroximg{
     max-width:100%;
@@ -320,13 +314,12 @@ border: 3px solid rgb(255, 51, 0);
     height: auto;
     width: auto;
     margin:auto;
-    border: 3px solid rgb(139, 8, 8);
   }
   .aatroxbox{
     background-color: rgb(139, 8, 8);
-          margin: 150px auto;
-          width: 100%;
-          padding: 8px;
+    margin: 30px auto;
+    width: 100%;
+    padding: 8px; 
   }
   .Aatroxp{
     text-align: center;
@@ -341,7 +334,6 @@ border: 3px solid rgb(255, 51, 0);
     height: auto;
     width: auto;
     margin:auto;
-    border: 3px solid rgb(0, 119, 255);
   }
   .JayceP{
     text-align: center;
@@ -352,9 +344,9 @@ border: 3px solid rgb(255, 51, 0);
   }
   .jaycebox{
     background-color: rgb(0, 119, 255);
-          margin: 150px auto;
-          width: 100%;
-          padding: 8px;
+    margin: 30px auto;
+    width: 100%;
+    padding: 8px; 
   }
   /*title*/
   .Nidalee{
@@ -363,7 +355,6 @@ border: 3px solid rgb(255, 51, 0);
     text-align: center;
     font-family: "Helvetica";
     font-weight: bold;
-    background-color: rgb(10, 97, 7);
 }
   .nidaleeimg{
     max-width:100%;
@@ -371,13 +362,12 @@ border: 3px solid rgb(255, 51, 0);
     height: auto;
     width: auto;
     margin:auto;
-    border: 3px solid rgb(10, 97, 7);
   }
   .nidaleebox{
     background-color: rgb(10, 97, 7);
-          margin: 150px auto;
-          width: 100%;
-          padding: 8px;
+    margin: 30px auto;
+    width: 100%;
+    padding: 8px; 
   }
   .Nidaleep{
     text-align: center;
@@ -393,7 +383,6 @@ border: 3px solid rgb(255, 51, 0);
     text-align: center;
     font-family: "Helvetica";
     font-weight: bold;
-    background-color: rgb(51, 207, 255);
 }
 .Leesinp{
   text-align: center;
@@ -407,13 +396,12 @@ border: 3px solid rgb(255, 51, 0);
     height: auto;
     width: auto;
     margin:auto;
-    border: 3px solid rgb(51, 207, 255);
   }
   .leesinbox{
     background-color: rgb(51, 207, 255);
-          margin: 150px auto;
-          width: 100%;
-          padding: 8px;
+    margin: 30px auto;
+    width: 100%;
+    padding: 8px; 
   }
     .AboutLolH2{
         color: rgb(255, 255, 255);
@@ -421,12 +409,9 @@ border: 3px solid rgb(255, 51, 0);
         font-family: "Helvetica";
         font-weight: bold;
         
-        font-size: 6vw;     
+        font-size: 4vw;     
     }
-    .DocText{
-      text-align: center;
-      color: rgb(255, 255, 255);
-    }
+    
     .AboutLolH21{
       color: rgb(255, 255, 255);
       text-align: center;
@@ -449,16 +434,12 @@ border: 3px solid rgb(255, 51, 0);
       }
     /*HyperLink*/
     a:link {
-        color: #673ab7; 
+        color: #bfa5eb; 
         background-color: transparent; 
         text-decoration: none;
         cursor: url("../ressources/cursors/link.cur"),pointer;
       }
-      a:visited {
-        color: #804bdb;
-        background-color: transparent;
-        text-decoration: none;
-      }
+      
       a:hover {
         color: #ffffff;
         background-color: transparent;
@@ -498,9 +479,9 @@ border: 3px solid rgb(255, 51, 0);
         color: white;
       }
       .AboutLol{
-        font-size: 10vw;
+        
           background-color: #673ab7;
-          margin: 150px auto;
+          margin: 20px auto;
           width: 100%;
           padding: 8px;
         }
@@ -537,11 +518,15 @@ border: 3px solid rgb(255, 51, 0);
       .content-table tbody tr:hover{
         background-color: #f3f3f3;
         color: #673ab7;
-        font-weight: bold;
+        
       }
     @media screen and (max-width: 500px) {
       .content-table thead{
         display: none;
+      }
+
+      .content-table{
+        width: 100%;
       }
       .content-table td{
         display: block;
@@ -561,7 +546,7 @@ border: 3px solid rgb(255, 51, 0);
         content: "Winrate";
       }
       .content-table  td{
-        text-align: right;
+        text-align: center;
       }
       .content-table td::before{
         float: left;
@@ -570,32 +555,160 @@ border: 3px solid rgb(255, 51, 0);
       } 
     }
     @media screen and (max-width: 500px) {
-      thead {
-        display:none;
-      }
-      .roles img{
-        max-width:100%;
-        display: block;
-        height: auto;
-        width: auto;
-        margin:auto;
-      }
-      td{
-        display: block;
-      }
-      td{
-        text-align: right;
-      }
-      td:first-child{
-        text-align: center;
-      }
-      td::before{
-        float: left;
-        margin-right: 3rem;
-        font-weight: bold;
-      }
-    }
     h3{
       font-size: 3vw;
     }
+  }
+
+  .container-aboutu{
+    margin: 30px auto;
+    padding: 25px 30px;
+    max-width: 700px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .container-aboutu .title-aboutu{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+  }
+
+  .container-aboutu .title-aboutu::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color:#673ab7;
+  }
+
+  .container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:20px 0 12px 0;
+  }
+  form .user-details .input-box{
     
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  }
+  .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .user-details .input-box input:focus,
+  .user-details .input-box input:valid{
+    border-color: #673ab7;
+  }
+
+  .user-details .input-box .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  form .gender-details .category{
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+  }
+
+  form .gender-details .category label{
+  display: flex;
+  align-items: center;
+  }
+
+  form .gender-details .category .dot{
+    height: 18px;
+    width: 18px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+  }
+  #dot-1:checked ~ .category label .one,
+  #dot-2:checked ~ .category label .two,
+  #dot-3:checked ~ .category label .three{
+    border-color: #d9d9d9;
+    background:#673ab7;
+  }
+
+  form input[type="radio"]{
+    display: none;
+  }
+
+  form .button{
+    height: 45px;
+    margin: 10px 0;
+  }
+
+  form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    background:#673ab7;
+    letter-spacing: 1px;
+    border-radius: 5px;
+  }
+
+  form .button input:hover{
+    background: #59339b;
+  }
+
+
+
+  .container-aboutu textarea{
+    width: 100%;
+    height: 70px;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    resize:both;
+    font-size: 16px;
+    border-color: #bfbfbf;
+  }
+  @media (max-width: 584px) {
+    .container-aboutu{
+      max-width: 100%;
+    }   
+
+    form .user-details .input-box{
+      margin-bottom: 15px;
+      width: 100%;
+    }
+
+    form .gender-details .category{
+    width: 100%;
+    }
+    .container-aboutu form .user-details{
+      max-height: 300px;
+      overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+      width: 0;
+    }
+  }
+
