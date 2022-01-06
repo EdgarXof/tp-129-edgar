@@ -18,3 +18,15 @@ Adc : change color text✔️
 Support : change color text✔️ 
 
 Make a page with forms(Contact)✔️ 
+
+Check Error with W3C:
+Home✔️ 
+Test
+Roles
+Tierlist
+Top
+Jungle
+Midlane
+Adc
+Support
+About You
