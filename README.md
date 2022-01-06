@@ -1,17 +1,20 @@
 # tp-129-edgar
 
-For 6 January
 Home:
-Add Image
+Add Image✔️ 
+(Custom)
+(About League)✔️ 
 
 Test:Answer the question
 
-Roles:Fix the responsive
+Roles:Fix the responsive✔️ 
 
-Toplane:Change the color of link
+Toplane:Change the color of link✔️ 
 
-Midlane:change color text
+Midlane:change color text✔️ 
 
-Adc : change color text
+Adc : change color text✔️ 
 
-Support : change color text
+Support : change color text✔️ 
+
+Make a page with forms(Contact)✔️ 
